@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Планеты</string>
+    <string name="textName">Название</string>
+    <string name="textDistance">Расстояние</string>
+    <string name="Back">Назад</string>
+    <string name="Home">Главная</string>
+    <string name="Change">Изменить</string>
+    <string name="Delete">Удалить</string>
+    <string name="Add">Добавить</string>
+    <string name="sort">Выберите фильтр по названию планет</string>
+    <string name="search1">Планета</string>
+    <string name="search2">Расстояние</string>
+    <string name="title">Поиск</string>
+</resources>

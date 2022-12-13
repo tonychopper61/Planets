@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <ImageView
+        android:id="@+id/image_base"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/bg"
+        android:contentDescription="TODO"
+        android:onClick="onClickChooseImage"
+        app:srcCompat="@drawable/planet" />
+
+    <EditText
+        android:id="@+id/UpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_base"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Планета"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/UpDistance"
+        android:layout_width="362dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/UpName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:hint="Расстояние"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:id="@+id/Down"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/purple_200"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:onClick="onClickBack"
+            android:text="@string/Back"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Change"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:onClick="onClickUpdate"
+            android:text="@string/Change"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Delete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button"
+            android:onClick="onClickDelete"
+            android:text="@string/Delete"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
