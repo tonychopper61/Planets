@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.example.planets.app-merged_res-29:/layout_activity_update.xml.flat",
+        "source": "com.example.planets.app-main-31:/layout/activity_update.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.planets.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/layout_activity_add.xml.flat",
+        "source": "com.example.planets.app-main-31:/layout/activity_add.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/layout_activity_mask_table.xml.flat",
+        "source": "com.example.planets.app-main-31:/layout/activity_mask_table.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-v24_pngwing1.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable-v24/pngwing1.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.planets.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable_search.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable_add.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable/add.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable_planet.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable/planet.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "com.example.planets.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-v24_pngwing2.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable-v24/pngwing2.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.planets.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-v24_lilplanet.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable-v24/lilplanet.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/menu_search.xml.flat",
+        "source": "com.example.planets.app-main-31:/menu/search.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.planets.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.planets.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-v24_planets.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable-v24/planets.png"
+    },
+    {
+        "merged": "com.example.planets.app-merged_res-29:/drawable-v24_pngwing3.png.flat",
+        "source": "com.example.planets.app-main-31:/drawable-v24/pngwing3.png"
+    }
+]

@@ -6,14 +6,14 @@ import android.os.Parcelable;
 public class Mask implements Parcelable {
 
     private int ID;
-    private String Country;
-    private String Population;
+    private String Name;
+    private String Distance;
     private String Image;
 
     protected Mask(Parcel in) {
         ID = in.readInt();
-        Country = in.readString();
-        Population = in.readString();
+        Name = in.readString();
+        Distance = in.readString();
     }
 
     public static final Creator<Mask> CREATOR = new Creator<Mask>() {
@@ -36,18 +36,18 @@ public class Mask implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(ID);
-        dest.writeString(Country);
-        dest.writeString(Population);
+        dest.writeString(Name);
+        dest.writeString(Distance);
         dest.writeString(Image);
     }
 
 
 
-    public Mask(int ID, String country, String population, String image)
+    public Mask(int ID, String name, String distance, String image)
     {
         this.ID = ID;
-        Country = country;
-        Population = population;
+        Name = name;
+        Distance = distance;
         Image = image;
     }
 
@@ -68,18 +68,18 @@ public class Mask implements Parcelable {
     }
 
     public String getName() {
-        return Country;
+        return Name;
     }
 
-    public void setName(String country) {
-        Country = country;
+    public void setName(String name) {
+        Name = name;
     }
 
     public String getDistance() {
-        return Population;
+        return Distance;
     }
 
-    public void setDistance(String population) {
-        Population = population;
+    public void setDistance(String distance) {
+        Distance = distance;
     }
 }
